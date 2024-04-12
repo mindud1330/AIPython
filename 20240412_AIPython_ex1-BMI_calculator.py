@@ -14,8 +14,8 @@ def isObesity(bmi):
         return "비만"
     
 
-height = 190
-weight = 90
+height = int(input("your height:")
+weight = int(input("your weight:")
 bmi = BMI(height, weight)
 print("Your BMI is", bmi)
 print("당신은", isObesity(bmi), "입니다.")
