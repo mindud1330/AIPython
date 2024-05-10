@@ -1,7 +1,7 @@
 import pandas as pd
 
 # read excel
-df = pd.read_excel('실습/BoxOffice.xlsx')
+df = pd.read_excel('BoxOffice.xlsx')
 print(df.info())
 
 grouped_movie_count = df.groupby('대표국적')['영화명'].count()
